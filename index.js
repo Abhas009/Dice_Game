@@ -1,10 +1,3 @@
-var p1 = prompt("Enter Player 1 name!");
-document.querySelector("p")[0].innerHTML = p1;
-
-var p2 = prompt("Enter Player 2 name!");
-document.querySelector("p")[1].innerHTML = p2;
-
-
 var randomNumber1 = Math.random();
 randomNumber1 = randomNumber1 * 6;
 randomNumber1 = Math.floor(randomNumber1)  + 1;
